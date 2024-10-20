@@ -124,7 +124,47 @@ hlt
 
 ![Screenshot 2024-08-24 140953](https://github.com/user-attachments/assets/1c541adc-bed5-44cb-abbc-f51a6b391f3d)
 
+## And of 8 bit numbers ALP
+```
+MOV AL,53H
+MOV BL,24H
+AND AL,BL
+hlt
+```
+ ## Output  
+ 
+![Screenshot 2024-08-24 141115](https://github.com/user-attachments/assets/53bd7224-b244-4d89-8936-c64d7869d236)
 
+## OR of 8 bit numbers ALP
+```
+MOV AL,53H
+MOV BL,24H
+OR AL,BL
+HLT
+```
+ ## Output  
+ ![Screenshot 2024-08-24 141219](https://github.com/user-attachments/assets/9efa002a-1271-46b2-aece-3afb5b1809c0)
+
+## NOT of 8 bit number ALP
+```
+MOV AL,53H
+NOT AL
+HLT
+```
+ ## Output  
+ 
+![Screenshot 2024-08-24 141319](https://github.com/user-attachments/assets/7e3a20d4-0525-4b44-8c58-8fd392da3ddc)
+
+## XOR of 8 bit number ALP
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+ ## Output  
+ ![Screenshot 2024-08-24 141559](https://github.com/user-attachments/assets/3dd2df90-afb3-4add-88e6-f51cda800527)
+ 
 ## Result :
 Thus, a program is executed on ALP for the fundamental arithmetic and logical operations. 
 
